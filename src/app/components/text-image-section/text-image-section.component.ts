@@ -22,7 +22,7 @@ export class TextImageSectionComponent {
     if(this.reversed()) {
       this.mainDiv().nativeElement.classList.add("flex-row-reverse");
     }else{
-      this.mainDiv().nativeElement.classList.add("flex-row");
+      // this.mainDiv().nativeElement.classList.add("row");
     }
 
     this.sectionImage().nativeElement.style.objectPosition = `${this.xPos()}% ${this.yPos()}%`;
