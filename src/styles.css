@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+html, body{
+    font-family: 'IM Fell English', serif;
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar{
+    display: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Uncial Antiqua', serif;
+}
+
+.btn-primary {
+    background-color: #33b1ff;
+    border-color: #33b1ff;
+}

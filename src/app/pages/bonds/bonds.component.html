@@ -1,0 +1,14 @@
+<app-page-container>
+    <div>
+        <button class="btn btn-outline-light" (click)="router.navigate(['/'])">Back to Adventure</button>
+    </div>
+    <h2>Forge Your Bonds</h2>
+    <p>Your characters aren't stepping into this story alone. Their fates are entwined with one another — in friendship, rivalry, duty, or something more mysterious. To help you weave those ties, here are 50+ inspiring connection questions. Use them as sparks to create shared history, unfinished business, or future promises between your adventurers.</p>
+
+    <p>Feel free to pick and choose the questions that resonate most with your character and the group dynamic. The goal is to create relationships that enrich your roleplaying experience and make every interaction at the table more meaningful.</p>
+
+    <div class="border text-center p-3 my-3">
+        <p>{{ bonds[randomIdx] }}</p>
+        <button class="btn btn-outline-light" (click)="onClick()">Random Question</button>
+    </div>
+</app-page-container>

@@ -1,0 +1,9 @@
+<div #mainDiv class="d-flex justify-content-between p-3" style="min-height: 60vh;">
+    <div class="col-8 px-2">
+        <h2>{{ title() }}</h2>
+        <ng-content />
+    </div>
+    <div class="col-4">
+        <img #sectionImage [src]="imgPath()" height="100%">
+    </div>
+</div>

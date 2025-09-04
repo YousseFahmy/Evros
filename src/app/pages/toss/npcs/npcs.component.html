@@ -1,0 +1,20 @@
+<app-page-container [gutter]="3">
+    <div>
+        <button class="btn btn-outline-light" (click)="router.navigate(['/'])">Back to Adventure</button>
+    </div>
+    <h1>The People of Eldrin's Hollow</h1>
+    <br>
+
+    <div class="container-fluid d-flex flex-row gap-2">
+        <div class="col-2">
+            <ul class="list-group">
+                <li [class]="'list-group-item ' + (npc.name == npcList[selectedNPCIndex()].name ? 'active' : '')" *ngFor="let npc of npcList; let i = index" (click)="selectNPC(i)">
+                    {{ npc.name }} 
+                </li>
+            </ul>
+        </div>
+        <div class="col-10">
+            <app-npc-box [npc]="npcList[selectedNPCIndex()]" />
+        </div>
+    </div>
+</app-page-container>
