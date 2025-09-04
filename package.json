@@ -3,11 +3,10 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --host 0.0.0.0 --port 8080",
+    "start": "npx http-server -p 8080 dist/dnd-website/browser",
     "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "serve:ssr:dnd-website": "node dist/dnd-website/server/server.mjs"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
@@ -22,6 +21,7 @@
     "@angular/router": "^18.2.0",
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.8",
+    "http-server": "^14.1.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.10"
