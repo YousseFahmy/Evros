@@ -24,7 +24,6 @@ export class StarsComponent {
   ngOnInit(){
     this.visibilityHandler = () => {
       this.isTabActive = !window.document.hidden;
-      console.log(`Tab is now ${this.isTabActive ? 'active' : 'inactive'}`);
     };
 
     window.document.addEventListener('visibilitychange', this.visibilityHandler);
@@ -88,7 +87,6 @@ export class StarsComponent {
 
   private spawnShootingStar() {
     if(!this.isTabActive) return;
-    console.log("Spawning shooting star");
 
     const canvasWidth = this.canvas().nativeElement.width;
 
