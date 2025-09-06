@@ -22,7 +22,6 @@ export class NpcsComponent {
   selectedNPC = computed(() => this.npcList.find(npc => npc.id === this.selectedNPCId())!)
 
   npcList!: NPC[];
-  isMobile = window.innerWidth < 768;
 
   ngOnInit(){
     this.npcList = this.dataService.getNPCs()
@@ -32,10 +31,5 @@ export class NpcsComponent {
   selectNPC(npcId: string | any) {
     if (!npcId) return;
     this.selectedNPCId.set(npcId);
-  }
-
-  @HostListener('window:resize', ['$event'])
-  onResize(event: UIEvent) {
-    this.isMobile = (event.target as Window).innerWidth < 768;
   }
 }

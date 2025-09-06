@@ -6,19 +6,10 @@
 
     <div class="container-fluid d-flex">
         <div class="row">
-            <div class="col-12 mb-2" *ngIf="isMobile">
+            <div class="col-12 mb-2">
                 <select class="form-select" [(ngModel)]="selectedNPCId">
                     <option *ngFor="let npc of npcList" [ngValue]="npc.id">{{ npc.name }}</option>
                 </select>
-            </div>
-
-            <div class="col-auto" *ngIf="!isMobile">
-                <ul class="list-group">
-                    <li [class]="'list-group-item ' + (npc.id == selectedNPCId() ? 'active' : '')"
-                        *ngFor="let npc of npcList;" (click)="selectNPC(npc.id)" style="cursor: pointer;">
-                        {{ npc.name }}
-                    </li>
-                </ul>
             </div>
 
             <div class="col">
