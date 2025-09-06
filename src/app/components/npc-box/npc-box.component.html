@@ -1,12 +1,26 @@
-<div class="container-fluid d-flex flex-row gap-2">
-    <div class="col-8">
-        <h2>{{ npc().name }}</h2>
-        <h4>{{ npc().race }}</h4>
-        <h4>{{ npc().role }}</h4>
-        <p>{{npc().appearance}}</p>
-        <p>{{npc().description}}</p>
-    </div>
-    <div class="col-4 align-items-start">
-        <img [src]="npc().imagePath" style="object-fit: cover; max-width: 100%; min-height: 100%;">
+<div class="container-fluid gap-2">
+    <div class="flex-column-reverse flex-lg-row d-flex gap-2">
+        <div class="col">
+            <h2 class="text-center text-md-start">{{ npc().name }}</h2>
+            <div class="row justify-content-space-between align-items-center">
+                <h4 class="col-6 col-md-12">{{ npc().race }}</h4>
+                <h4 class="col-6 col-md-12">{{ npc().role }}</h4>
+            </div>
+
+            <div *ngIf="npc().appearance">
+                <h5>Appearance</h5>
+                <p>{{ npc().appearance }}</p>
+            </div>
+
+            <div *ngIf="npc().description">
+                <h5>Description</h5>
+                <p>{{ npc().description }}</p>
+            </div>
+        </div>
+
+        <div class="col-12 col-lg-4 align-items-start" *ngIf="npc().imagePath">
+            <img [src]="npc().imagePath"
+                style="object-fit: cover; max-width: 100%; min-height: 100%;">
+        </div>
     </div>
 </div>
