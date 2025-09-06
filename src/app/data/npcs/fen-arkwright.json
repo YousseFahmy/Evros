@@ -1,0 +1,9 @@
+{
+	"id": "fen-arkwright",
+	"name": "Fennel (Fen) Arkwright",
+	"race": "Gnome",
+	"role": "Tinkerer",
+	"appearance": "Fen is a lanky gnome with a wiry frame, his hands perpetually stained with grease and soot. His wild auburn hair sticks out at odd angles, often tamed only by the soot-streaked goggles pushed up onto his forehead. His patched leather apron and sleeves bear singe marks from countless experiments gone awry. His eyes are sharp and curious, always darting around as though cataloging every hinge, latch, and gear in sight.",
+	"description": "Fen is endlessly inquisitive and supportive, quick to encourage others’ ideas and eager to tinker with anything new. He is absent-minded, often trailing off mid-sentence to scribble in a notebook or poke at a gadget. Unless the subject is gears, tools, or inventions, his listening skills are questionable at best. Despite this, his enthusiasm is infectious, and his laugh is quick and bright, even when his projects literally blow up in his face.",
+	"imagePath": "/fen-arkwright.jpg"
+}

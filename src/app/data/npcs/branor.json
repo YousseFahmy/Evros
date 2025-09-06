@@ -3,6 +3,7 @@
 	"name": "Branor Thistledown",
 	"race": "Human",
 	"role": "Village Elder",
-	"appearance": "Tall and slender with silver-streaked black hair, pale blue eyes.",
-	"description": "Eryndor is an elven scholar who has dedicated centuries to studying the anything about everything. He once adventured with the party but ever since they split ways, he retired to Eldrin's Hollow to conduct his research. He has a generally calm demeanor but can be quick to anger if provoked. He is deeply loyal to his friends and will go to great lengths to protect them."
+	"appearance": "Branor is a weathered man in his late 60s, with sun-browned, wrinkled skin and thinning gray hair streaked with chestnut. His shoulders are stooped from decades of farm work, but his steady movements carry quiet strength. He wears simple farmer's clothes — a roughspun tunic, patched trousers, and well-worn boots — always practical, always mended. His oak walking stick is more a badge of age than a necessity, carved smooth by years of use.",
+	"description": "Kind-hearted and patient, Branor listens first, speaks last, and rarely wastes words. He's wise in the way of the land and people, carrying a calm steadiness that comforts those around him. He believes in fairness, hard work, and community, and while he avoids conflict, his voice holds surprising authority when he decides to use it. To the people of Eldrin's Hollow, Branor feels like the bedrock of the village itself: always there, dependable, quietly guiding.",
+	"imagePath": "/branor.jpg"
 }

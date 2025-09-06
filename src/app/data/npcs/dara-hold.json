@@ -1,0 +1,9 @@
+{
+	"id": "dara-hold",
+	"name": "Dara Hold",
+	"race": "Human",
+	"role": "Woodcutter",
+	"appearance": "Dara is a tall, rugged woman in her late 30s, with broad shoulders and a strong build from years of cutting wood. Her sun-tanned skin carries a few scars, the most notable being a faint but jagged mark over her right eyebrow. Her brown hair is usually tied back in a loose, practical braid, though strands often fall free when she works. She dresses simply: a linen shirt, heavy leather gloves, and worn trousers tucked into sturdy boots. Her axe is always close at hand, well-used but carefully maintained.",
+	"description": "Steady and kind, Dara has the calm reliability of someone who knows the value of hard work and consistency. She is warm in her interactions but cautious about showing deeper emotions, particularly with those tied to her past. She values honesty and prefers actions over words, rarely embellishing or exaggerating. To most villagers, she is a dependable provider of firewood and building timber, but beneath her quiet surface lies a depth of feeling she doesn't readily share.",
+	"imagePath": "/dara-hold.jpg"
+}
