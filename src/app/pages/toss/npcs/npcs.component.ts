@@ -1,10 +1,10 @@
-import { Component, computed, HostListener, inject, signal } from '@angular/core';
-import { PageContainerComponent } from "../../../components/page-container/page-container.component";
-import { NpcBoxComponent } from "@app/components/npc-box/npc-box.component";
 import { CommonModule } from "@angular/common";
-import { FormsModule } from '@angular/forms'; 
-import { NPC } from "@app/model/npc/npc.model";
+import { Component, computed, HostListener, inject, signal } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { Router } from "@angular/router";
+import { NpcBoxComponent } from "@app/components/npc-box/npc-box.component";
+import { PageContainerComponent } from "@app/components/page-container/page-container.component";
+import { NPC } from "@app/model/npc/npc.model";
 import { DataService } from "@app/services/data.service";
 
 @Component({

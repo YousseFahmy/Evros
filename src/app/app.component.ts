@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { StarsComponent } from "./components/stars/stars.component";
+import { StarsComponent } from "@app/components/stars/stars.component";
 import { RouterOutlet } from "@angular/router";
 
 @Component({

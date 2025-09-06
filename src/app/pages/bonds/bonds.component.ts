@@ -1,8 +1,8 @@
 import { CommonModule } from "@angular/common";
 import { Component, inject } from '@angular/core';
-import bonds from '@data/bonds.json';
-import { PageContainerComponent } from "../../components/page-container/page-container.component";
 import { Router } from "@angular/router";
+import { PageContainerComponent } from "@app/components/page-container/page-container.component";
+import bonds from '@data/bonds.json';
 
 @Component({
   selector: 'app-bonds',

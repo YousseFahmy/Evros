@@ -1,9 +1,8 @@
-import { Component, ElementRef, inject, viewChild } from '@angular/core';
+import { Component, viewChild } from '@angular/core';
 import { RouterModule } from "@angular/router";
-import { HeroComponent } from "../../components/hero/hero.component";
-import { TextImageSectionComponent } from "../../components/text-image-section/text-image-section.component";
-import { PageContainerComponent } from "../../components/page-container/page-container.component";
-import { Title } from "@angular/platform-browser";
+import { HeroComponent } from "@app/components/hero/hero.component";
+import { PageContainerComponent } from "@app/components/page-container/page-container.component";
+import { TextImageSectionComponent } from "@app/components/text-image-section/text-image-section.component";
 
 @Component({
   selector: 'app-toss',
